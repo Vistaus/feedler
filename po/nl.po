@@ -8,26 +8,26 @@ msgstr ""
 "Project-Id-Version: feedler\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-14 23:35-0400\n"
-"PO-Revision-Date: 2012-08-24 12:41+0000\n"
-"Last-Translator: OrangeTux <orangetux24@gmail.com>\n"
+"PO-Revision-Date: 2019-11-04 12:38+0100\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2014-03-15 07:10+0000\n"
-"X-Generator: Launchpad (build 16963)\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #. Translatable launcher (.desktop) strings to be added to
 #. template (.pot) file. These strings MUST reflect any
 #. changes in these launcher keys in .desktop file.
 #: src/desktop-launcher.vala:13
 msgid "Download and view feeds"
-msgstr "Feeds downloaden en bekijken"
+msgstr "Bekijk en download feeds"
 
 #: src/desktop-launcher.vala:14
 msgid "Feedler News Reader"
-msgstr "Feedler Nieuwslezer"
+msgstr "Feedler-nieuwslezer"
 
 #: src/indicator.vala:24 src/ui/sidebar.vala:26
 msgid "Update"
@@ -46,22 +46,20 @@ msgid "new feeds"
 msgstr "nieuwe feeds"
 
 #: src/window.vala:465
-#, fuzzy
 msgid "Subscriptions"
-msgstr "Abonnementen:"
+msgstr "Abonnementen"
 
 #: src/window.vala:523
 msgid "Importing subscriptions"
-msgstr "Abonnementen aan het importeren"
+msgstr "Bezig met importeren van abonnementen..."
 
 #: src/window.vala:548
 msgid "Updating subscriptions"
-msgstr "Abonnementen bijwerken."
+msgstr "Bezig met bijwerken van abonnementen..."
 
 #: src/window.vala:567
-#, fuzzy
 msgid "Updating channel"
-msgstr "%s bijwerken"
+msgstr "Bezig met bijwerken van kanaal..."
 
 #: src/ui/contractor.vala:23
 msgid "Share channels or items"
@@ -73,7 +71,7 @@ msgstr "Abonnementen exporteren"
 
 #: src/ui/folder.vala:16 src/ui/statusbar.vala:63
 msgid "Add new folder"
-msgstr ""
+msgstr "Map toevoegen"
 
 #: src/ui/folder.vala:38 src/ui/subscription.vala:53
 msgid "Name"
@@ -82,28 +80,28 @@ msgstr "Naam"
 #: src/ui/folder.vala:53
 #, c-format
 msgid "Edit folder %s"
-msgstr ""
+msgstr "Map '%s' bewerken"
 
 #: src/ui/infobar.vala:23
 msgid "Welcome! You are connected to the service ;-)"
-msgstr ""
+msgstr "Welkom! Je bent verbonden met de dienst ;-)"
 
 #: src/ui/infobar.vala:24
 msgid "Close"
-msgstr ""
+msgstr "Sluiten"
 
 #: src/ui/infobar.vala:47
 msgid "Cannot connect to service ;-("
-msgstr ""
+msgstr "Kan geen verbinding maken met de dienst ;-("
 
 #: src/ui/infobar.vala:48
 msgid "Connect"
-msgstr ""
+msgstr "Verbinding maken"
 
 #: src/ui/infobar.vala:76
 #, c-format
 msgid "Undo rename %s"
-msgstr ""
+msgstr "Naamswijziging van '%s' ongedaan maken"
 
 #: src/ui/infobar.vala:77 src/ui/infobar.vala:104 src/ui/infobar.vala:140
 msgid "Undo"
@@ -112,47 +110,44 @@ msgstr "Ongedaan maken"
 #: src/ui/infobar.vala:103
 #, c-format
 msgid "Undo delete %s"
-msgstr ""
+msgstr "Verwijderen van '%s' ongedaan maken"
 
 #: src/ui/infobar.vala:184 src/ui/infobar.vala:198
 #, c-format
 msgid "<small>Dismiss after %i seconds.</small>"
-msgstr ""
+msgstr "<small>Verwerpen na %i seconden.</small>"
 
 #: src/ui/layout.vala:69
 msgid "Get Some Feeds"
-msgstr ""
+msgstr "Haal je feeds op"
 
 #: src/ui/layout.vala:69
 msgid "Feedler can't seem to find your feeds."
-msgstr "Feedler lijkt uw feeds niet te kunnen vinden."
+msgstr "Feedler lijkt je feeds niet te kunnen vinden."
 
 #: src/ui/layout.vala:70
 msgid "Create"
 msgstr "Aanmaken"
 
 #: src/ui/layout.vala:70
-#, fuzzy
 msgid "Add subscriptions from URL."
-msgstr "Voeg handmatig abonnementen toe via een URL."
+msgstr "Voeg handmatig abonnementen toe via een url."
 
 #: src/ui/layout.vala:71
 msgid "Import"
 msgstr "Importeren"
 
 #: src/ui/layout.vala:71
-#, fuzzy
 msgid "Add subscriptions from OPML file."
 msgstr "Voeg abonnementen toe met een OPML-bestand."
 
 #: src/ui/layout.vala:77
 msgid "No Feeds"
-msgstr ""
+msgstr "Geen feeds"
 
 #: src/ui/layout.vala:77
-#, fuzzy
 msgid "Can't seem to find any feeds."
-msgstr "Feedler lijkt uw feeds niet te kunnen vinden."
+msgstr "Feedler lijkt geen feeds te kunnen vinden."
 
 #: src/ui/menu.vala:11
 msgid "Display"
@@ -160,55 +155,55 @@ msgstr "Weergave"
 
 #: src/ui/menu.vala:12
 msgid "Open in browser"
-msgstr "Open in browser"
+msgstr "Openen in browser"
 
 #: src/ui/menu.vala:13
 msgid "Copy URL to clipboard"
-msgstr ""
+msgstr "URL kopiëren naar klembord"
 
 #: src/ui/menu.vala:14 src/ui/sidebar.vala:27
 msgid "Mark as read"
-msgstr "Markeer als gelezen"
+msgstr "Markeren als gelezen"
 
 #: src/ui/menu.vala:15
 msgid "Mark as unread"
-msgstr "Markeer als ongelezen"
+msgstr "Markeren als ongelezen"
 
 #: src/ui/menu.vala:16
 msgid "Add to starred"
-msgstr ""
+msgstr "Toevoegen aan favorieten"
 
 #: src/ui/menu.vala:17
 msgid "Remove from starred"
-msgstr ""
+msgstr "Verwijderen uit favorieten"
 
 #: src/ui/preferences.vala:53
 msgid "Automatic"
-msgstr ""
+msgstr "Automatisch"
 
 #: src/ui/preferences.vala:54
 msgid "Mozilla Firefox"
-msgstr ""
+msgstr "Mozilla Firefox"
 
 #: src/ui/preferences.vala:55
 msgid "Midori"
-msgstr ""
+msgstr "Midori"
 
 #: src/ui/preferences.vala:56
 msgid "Chromium"
-msgstr ""
+msgstr "Chromium"
 
 #: src/ui/preferences.vala:57
 msgid "Google Chrome"
-msgstr ""
+msgstr "Google Chrome"
 
 #: src/ui/preferences.vala:58
 msgid "Opera"
-msgstr ""
+msgstr "Opera"
 
 #: src/ui/preferences.vala:59
 msgid "Manual"
-msgstr ""
+msgstr "Aangepast"
 
 #: src/ui/preferences.vala:80
 msgid "Content:"
@@ -216,35 +211,35 @@ msgstr "Inhoud:"
 
 #: src/ui/preferences.vala:81
 msgid "Enable images:"
-msgstr "Afbeeldingen weergeven:"
+msgstr "Afbeeldingen tonen:"
 
 #: src/ui/preferences.vala:82
 msgid "Shrink image to fit:"
-msgstr "Afbeelding verkleinen om passend te maken:"
+msgstr "Afbeelding passend maken:"
 
 #: src/ui/preferences.vala:83
 msgid "Enable plugins:"
-msgstr "Activeer plugins:"
+msgstr "Plug-ins gebruiken:"
 
 #: src/ui/preferences.vala:84
 msgid "Enable JavaScripts:"
-msgstr "Activeer JavaScripts:"
+msgstr "JavaScript gebruiken:"
 
 #: src/ui/preferences.vala:85
 msgid "Enable Java:"
-msgstr "Activeer Java:"
+msgstr "Java gebruiken:"
 
 #: src/ui/preferences.vala:86
 msgid "Browser:"
-msgstr ""
+msgstr "Browser:"
 
 #: src/ui/preferences.vala:87
 msgid "Open links in:"
-msgstr ""
+msgstr "Links openen in:"
 
 #: src/ui/preferences.vala:88
 msgid "Manual command:"
-msgstr ""
+msgstr "Aangepaste opdracht:"
 
 #: src/ui/preferences.vala:105
 msgid "Window:"
@@ -252,23 +247,23 @@ msgstr "Venster:"
 
 #: src/ui/preferences.vala:106
 msgid "Hiding window instead of closing:"
-msgstr ""
+msgstr "Venster verbergen in plaats van sluiten:"
 
 #: src/ui/preferences.vala:107
 msgid "Hide on start to the messaging menu:"
-msgstr ""
+msgstr "Bij opstarten verbergen in berichtmenu:"
 
 #: src/ui/preferences.vala:109
 msgid "Application:"
-msgstr ""
+msgstr "Toepassing:"
 
 #: src/ui/preferences.vala:110
 msgid "Hide additional headers in sidebar:"
-msgstr ""
+msgstr "Aanvullende koppen verbergen in zijbalk:"
 
 #: src/ui/preferences.vala:111
 msgid "Maximum items stored in the channel:"
-msgstr ""
+msgstr "Maximum aantal te bewaren items in kanaal:"
 
 #: src/ui/preferences.vala:129
 msgid "Subscriptions:"
@@ -276,23 +271,23 @@ msgstr "Abonnementen:"
 
 #: src/ui/preferences.vala:130
 msgid "Enable automatic updates:"
-msgstr "Activeer automatische updates:"
+msgstr "Automatisch bijwerken:"
 
 #: src/ui/preferences.vala:131
 msgid "Enable updates on start:"
-msgstr "Activeer updates bij opstarten:"
+msgstr "Automatisch bijwerken na opstarten:"
 
 #: src/ui/preferences.vala:132
 msgid "Time interval between updates:"
-msgstr "Tijdsinterval tussen updates:"
+msgstr "Interval tussen bijwerkingen:"
 
 #: src/ui/preferences.vala:133
 msgid "Favicons:"
-msgstr ""
+msgstr "Favicons:"
 
 #: src/ui/preferences.vala:134
 msgid "Download now all favicons:"
-msgstr ""
+msgstr "Alle favicons nu downloaden:"
 
 #: src/ui/preferences.vala:149 src/ui/toolbar.vala:63
 msgid "Preferences"
@@ -300,7 +295,7 @@ msgstr "Voorkeuren"
 
 #: src/ui/preferences.vala:162
 msgid "Interface"
-msgstr ""
+msgstr "Uiterlijk"
 
 #: src/ui/preferences.vala:163
 msgid "Behavior"
@@ -308,44 +303,43 @@ msgstr "Gedrag"
 
 #: src/ui/preferences.vala:164
 msgid "Updates"
-msgstr "Updates"
+msgstr "Bijwerken"
 
 #: src/ui/sidebar.vala:28
 msgid "Rename"
-msgstr ""
+msgstr "Naam wijzigen"
 
 #: src/ui/sidebar.vala:29
 msgid "Remove"
-msgstr ""
+msgstr "Verwijderen"
 
 #: src/ui/sidebar.vala:30
 msgid "Edit"
-msgstr ""
+msgstr "Bewerken"
 
 #: src/ui/sidebar.vala:63
 msgid "All items"
-msgstr ""
+msgstr "Alle items"
 
 #: src/ui/sidebar.vala:66
-#, fuzzy
 msgid "Unread items"
-msgstr "Ongelezen"
+msgstr "Ongelezen items"
 
 #: src/ui/sidebar.vala:69
 msgid "Starred items"
-msgstr ""
+msgstr "Favoriete items"
 
 #: src/ui/statusbar.vala:16
 msgid "Add new.."
-msgstr ""
+msgstr "Nieuw(e) toevoegen..."
 
 #: src/ui/statusbar.vala:17
 msgid "Mark all items as read"
-msgstr "Alle items als gelezen markeren"
+msgstr "Alle items markeren als gelezen"
 
 #: src/ui/statusbar.vala:18
 msgid "Go to the channel with unread items"
-msgstr ""
+msgstr "Ga naar het kanaal met ongelezen items"
 
 #: src/ui/statusbar.vala:29
 msgid "unread feeds"
@@ -356,18 +350,16 @@ msgid "unread feed"
 msgstr "ongelezen feed"
 
 #: src/ui/statusbar.vala:64 src/ui/subscription.vala:21
-#, fuzzy
 msgid "Add new subscription"
-msgstr "Abonnementen bijwerken."
+msgstr "Abonnement toevoegen"
 
 #: src/ui/statusbar.vala:65
-#, fuzzy
 msgid "Import subscription from file"
-msgstr "Abonnementen aan het importeren"
+msgstr "Abonnement importeren uit bestand"
 
 #: src/ui/subscription.vala:42
 msgid "Load favicon"
-msgstr ""
+msgstr "Favicon laden"
 
 #: src/ui/subscription.vala:50
 msgid "Folder"
@@ -378,25 +370,25 @@ msgid "URI Address"
 msgstr "URI-adres"
 
 #: src/ui/subscription.vala:84
-#, fuzzy, c-format
+#, c-format
 msgid "Edit subscription %s"
-msgstr "Abonnementen exporteren"
+msgstr "Abonnement '%s' aanpassen"
 
 #. internal Feedler.ContractorButton sharemenu;
 #: src/ui/toolbar.vala:61
 msgid "Sidebar Visible"
-msgstr "Zijpaneel zichtbaar"
+msgstr "Zijpaneel tonen/verbergen"
 
 #: src/ui/toolbar.vala:62
 msgid "Fullscreen"
-msgstr "Volledig scherm"
+msgstr "Beeldvullend"
 
 #. Gtk.ToolItem progress_item = new Gtk.ToolItem ();
 #. progress_item.set_expand (true);
 #. progress_item.add (align);
 #: src/ui/toolbar.vala:94
 msgid "Refresh all subscriptions"
-msgstr ""
+msgstr "Alle abonnementen bijwerken"
 
 #: src/ui/toolbar.vala:95
 msgid "Menu"
@@ -406,49 +398,55 @@ msgstr "Menu"
 #: src/ui/view-cell.vala:53
 #, c-format
 msgid "%s, by %s"
-msgstr ""
+msgstr "%s van %s"
 
-#~ msgid "Are you sure you want to delete?"
-#~ msgstr "Weet u zeker dat u wilt verwijderen?"
-
-#~ msgid "Are you sure you want to mark as read?"
-#~ msgstr "Weet u zeker dat u als gelezen wilt markeren?"
-
-#~ msgid "Cancel"
-#~ msgstr "Annuleren"
-
-#~ msgid "Delete"
-#~ msgstr "Verwijder"
-
-#~ msgid "Dismiss"
-#~ msgstr "Verwerpen"
+#, c-format
+#~ msgid "Imported %i channels in %i folders."
+#~ msgstr "%i kanalen in %i mappen geïmporteerd."
 
 #~ msgid "Downloading favicons"
 #~ msgstr "Iconen aan het downloaden."
 
-#~ msgid "Go to the previous readed item"
-#~ msgstr "Ga naar het laatst gelezen item"
+#~ msgid "Are you sure you want to mark as read?"
+#~ msgstr "Weet u zeker dat u als gelezen wilt markeren?"
 
-#~ msgid "Imported %i channels in %i folders."
-#~ msgstr "%i kanalen in %i mappen geïmporteerd."
-
-#~ msgid "New"
-#~ msgstr "Nieuw"
-
-#~ msgid "Properties"
-#~ msgstr "Eigenschappen"
-
-#~ msgid "Remove selected subscription"
-#~ msgstr "Verwijder geselecteerde abonnement"
+#~ msgid "Are you sure you want to delete?"
+#~ msgstr "Weet u zeker dat u wilt verwijderen?"
 
 #~ msgid "Save"
 #~ msgstr "Opslaan"
 
+#~ msgid "Cancel"
+#~ msgstr "Annuleren"
+
+#~ msgid "Dismiss"
+#~ msgstr "Verwerpen"
+
+#~ msgid "Delete"
+#~ msgstr "Verwijder"
+
+#~ msgid "Properties"
+#~ msgstr "Eigenschappen"
+
+#~ msgid "New"
+#~ msgstr "Nieuw"
+
 #~ msgid "Subscription"
 #~ msgstr "Abonnement"
+
+#~ msgid "Remove selected subscription"
+#~ msgstr "Verwijder geselecteerde abonnement"
+
+#~ msgid "URI"
+#~ msgstr "URI"
 
 #~ msgid "Type to Search..."
 #~ msgstr "Typ om te zoeken..."
 
-#~ msgid "URI"
-#~ msgstr "URI"
+#~ msgid "Go to the previous readed item"
+#~ msgstr "Ga naar het laatst gelezen item"
+
+#, fuzzy
+#~| msgid "Go to the previous readed item"
+#~ msgid "Go to the next readed item"
+#~ msgstr "Ga naar het laatst gelezen item"
